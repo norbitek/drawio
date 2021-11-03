@@ -1,4 +1,4 @@
-<mxfile modified="2021-11-03T15:35:16.524Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="jWYm5Bi3vKjHHuDFW-1m" version="15.4.1" type="github">
+<mxfile modified="2021-11-03T15:45:08.567Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="F0D8HOJg1n-MdzW8-nti" version="15.4.1" type="github">
   <diagram id="7gcUSTIZ7YSJ5vT40chW" name="Page-1">
     <mxGraphModel dx="1349" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -148,7 +148,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fDX2wKOXSJ8dmzNtZNU6-98" value="DELTA ENGINE" style="swimlane;fontSize=12;strokeWidth=2;flipV=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="50" width="497" height="220" as="geometry" />
+          <mxGeometry x="370" y="30" width="497" height="240" as="geometry" />
         </mxCell>
         <mxCell id="SZY12_XKgGBlkoAp8IEY-2" value="" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=img/lib/mscae/Databricks.svg;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" parent="fDX2wKOXSJ8dmzNtZNU6-98" vertex="1">
           <mxGeometry x="10" y="10" width="47.5" height="50" as="geometry" />
@@ -160,16 +160,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fDX2wKOXSJ8dmzNtZNU6-107" value="Notebooks" style="swimlane;fontSize=12;strokeWidth=2;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-98">
-          <mxGeometry x="80" y="10" width="100" height="100" as="geometry" />
+          <mxGeometry x="80" y="10" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="fDX2wKOXSJ8dmzNtZNU6-108" value="Python&lt;br&gt;SQL&lt;br&gt;Scala&lt;br&gt;R" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-107">
+        <mxCell id="fDX2wKOXSJ8dmzNtZNU6-108" value="Python&lt;br&gt;SQL&lt;br&gt;Scala&lt;br&gt;R" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-107">
           <mxGeometry x="29" y="30" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fDX2wKOXSJ8dmzNtZNU6-109" value="Delta Ingestion" style="swimlane;fontSize=12;strokeWidth=2;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-98">
           <mxGeometry x="200" y="10" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="fDX2wKOXSJ8dmzNtZNU6-110" value="Auto Loader&lt;br&gt;COPY INTO&lt;br&gt;ADF Copy&lt;br&gt;Optimized Spark" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-109">
-          <mxGeometry y="30" width="100" height="60" as="geometry" />
+        <mxCell id="fDX2wKOXSJ8dmzNtZNU6-110" value="Auto Loader&lt;br&gt;COPY INTO&lt;br&gt;ADF Copy" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-109">
+          <mxGeometry y="35" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fDX2wKOXSJ8dmzNtZNU6-112" value="" style="swimlane;startSize=0;fontSize=12;strokeWidth=2;fillColor=#A0522D;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-98">
           <mxGeometry x="312.92" y="10" width="95" height="30" as="geometry" />
@@ -180,8 +180,14 @@
         <mxCell id="fDX2wKOXSJ8dmzNtZNU6-114" value="" style="swimlane;startSize=0;fontSize=12;strokeWidth=2;fillColor=#A0522D;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-98">
           <mxGeometry x="313" y="50" width="132.08" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="fDX2wKOXSJ8dmzNtZNU6-115" value="&lt;h4 style=&quot;box-sizing: inherit ; margin-top: 0px ; margin-bottom: 0.625rem ; line-height: 1.2 ; color: rgb(33 , 37 , 41) ; font-family: &amp;#34;barlow&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Delta Live Tables&lt;/font&gt;&lt;/h4&gt;&lt;h4 style=&quot;box-sizing: inherit ; margin-top: 0px ; margin-bottom: 0.625rem ; line-height: 1.2 ; color: rgb(33 , 37 , 41) ; font-family: &amp;#34;barlow&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;- ETL pipelines&lt;/font&gt;&lt;/h4&gt;&lt;h4 style=&quot;box-sizing: inherit ; margin-top: 0px ; margin-bottom: 0.625rem ; line-height: 1.2 ; color: rgb(33 , 37 , 41) ; font-family: &amp;#34;barlow&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;(in preview)&lt;/font&gt;&lt;/h4&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-114">
+        <mxCell id="fDX2wKOXSJ8dmzNtZNU6-115" value="&lt;h4 style=&quot;box-sizing: inherit ; margin-top: 0px ; margin-bottom: 0.625rem ; line-height: 1.2 ; color: rgb(33 , 37 , 41) ; font-family: &amp;#34;barlow&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Delta Live Tables&lt;/font&gt;&lt;/h4&gt;&lt;h4 style=&quot;box-sizing: inherit ; margin-top: 0px ; margin-bottom: 0.625rem ; line-height: 1.2 ; color: rgb(33 , 37 , 41) ; font-family: &amp;#34;barlow&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;- ETL pipelines&lt;/font&gt;&lt;/h4&gt;&lt;h4 style=&quot;box-sizing: inherit ; margin-top: 0px ; margin-bottom: 0.625rem ; line-height: 1.2 ; color: rgb(33 , 37 , 41) ; font-family: &amp;#34;barlow&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;(in preview)&lt;/font&gt;&lt;/h4&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-114">
           <mxGeometry y="10" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fDX2wKOXSJ8dmzNtZNU6-122" value="Other Features" style="swimlane;fontSize=12;strokeWidth=2;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-98">
+          <mxGeometry x="55" y="110" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fDX2wKOXSJ8dmzNtZNU6-123" value="&lt;h1 id=&quot;change-data-feed&quot; style=&quot;box-sizing: inherit ; margin: -10px 0px 0px ; padding: 0px ; outline-color: inherit ; overflow-wrap: break-word ; line-height: 1.3 ; word-break: break-word ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font&gt;&lt;font color=&quot;#171717&quot; face=&quot;segoe ui, segoeui, helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Table versioning&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 id=&quot;change-data-feed&quot; style=&quot;box-sizing: inherit ; margin: -10px 0px 0px ; padding: 0px ; outline-color: inherit ; overflow-wrap: break-word ; line-height: 1.3 ; word-break: break-word ; color: rgb(23 , 23 , 23) ; font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;segoeui&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;Change data feed&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontStyle=1" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-122">
+          <mxGeometry y="30" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fDX2wKOXSJ8dmzNtZNU6-104" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=2;fillColor=#A0522D;" vertex="1" parent="1">
           <mxGeometry x="585" y="270" width="60" height="60" as="geometry" />
