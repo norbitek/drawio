@@ -1,4 +1,4 @@
-<mxfile modified="2021-11-04T08:31:57.328Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="hILmRuT8qnEopgHT3fBo" version="15.4.1" type="github">
+<mxfile modified="2021-11-04T08:33:46.985Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="2SK0F7AX9LK8_Nsq3MrH" version="15.4.1" type="github">
   <diagram id="7gcUSTIZ7YSJ5vT40chW" name="Page-1">
     <mxGraphModel dx="1349" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -185,7 +185,7 @@
         <mxCell id="fDX2wKOXSJ8dmzNtZNU6-134" value="Task Orchestration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-133">
           <mxGeometry y="35" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fDX2wKOXSJ8dmzNtZNU6-135" value="Delta Live Tables&#xa;(preview)" style="swimlane;fontSize=12;strokeWidth=2;align=left;startSize=36;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-98">
+        <mxCell id="fDX2wKOXSJ8dmzNtZNU6-135" value="Delta Live Tables&#xa;(Public Preview)" style="swimlane;fontSize=12;strokeWidth=2;align=left;startSize=36;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-98">
           <mxGeometry x="310" y="110" width="120" height="66" as="geometry" />
         </mxCell>
         <mxCell id="fDX2wKOXSJ8dmzNtZNU6-136" value="&lt;h4 style=&quot;box-sizing: inherit ; margin-top: 0px ; margin-bottom: 0.625rem ; line-height: 1.2 ; color: rgb(33 , 37 , 41) ; font-family: &amp;#34;barlow&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-weight: normal&quot;&gt;ETL pipelines&lt;/font&gt;&lt;/h4&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="fDX2wKOXSJ8dmzNtZNU6-135">
