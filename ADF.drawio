@@ -19,7 +19,7 @@
         <mxCell id="A-B3xuJIqng0p3WssyE_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-0" target="A-B3xuJIqng0p3WssyE_-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A-B3xuJIqng0p3WssyE_-0" value="Define pipeline parameters:&lt;div&gt;- pipeline id&lt;/div&gt;&lt;div&gt;- table watermark time&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="A-B3xuJIqng0p3WssyE_-0" value="Define pipeline parameters:&lt;div&gt;- pipeline id&lt;/div&gt;&lt;div&gt;- ingestion time&lt;/div&gt;&lt;div&gt;- table watermark time&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="152.5" y="370" width="135" height="90" as="geometry" />
         </mxCell>
         <mxCell id="A-B3xuJIqng0p3WssyE_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-1" target="A-B3xuJIqng0p3WssyE_-13">
@@ -71,8 +71,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A-B3xuJIqng0p3WssyE_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-13" target="A-B3xuJIqng0p3WssyE_-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="A-B3xuJIqng0p3WssyE_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-13" target="A-B3xuJIqng0p3WssyE_-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="382.5" y="945" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="A-B3xuJIqng0p3WssyE_-21" value="failure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A-B3xuJIqng0p3WssyE_-20">
           <mxGeometry x="0.0329" relative="1" as="geometry">
@@ -82,21 +84,8 @@
         <mxCell id="A-B3xuJIqng0p3WssyE_-13" value="Check execution status" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="810" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="A-B3xuJIqng0p3WssyE_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-16" target="A-B3xuJIqng0p3WssyE_-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="217.5" y="1060" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="A-B3xuJIqng0p3WssyE_-16" value="Report:&lt;div&gt;- success status&lt;/div&gt;&lt;div&gt;- row count&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- watermark time&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="42.5" y="930" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="A-B3xuJIqng0p3WssyE_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-19" target="A-B3xuJIqng0p3WssyE_-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="217.5" y="1060" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="A-B3xuJIqng0p3WssyE_-19" value="Report:&lt;div&gt;- failure status&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="930" width="120" height="60" as="geometry" />
+        <mxCell id="A-B3xuJIqng0p3WssyE_-16" value="Report:&lt;div&gt;- success status&lt;/div&gt;&lt;div&gt;- ingestion time&lt;/div&gt;&lt;div&gt;- row count&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;to ADF_Pipeline_log&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="42.5" y="930" width="117.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="A-B3xuJIqng0p3WssyE_-23" value="Ingest RAW data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="157.5" y="40" width="110" height="20" as="geometry" />
@@ -128,7 +117,7 @@
           <mxGeometry x="172.5" y="270" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="A-B3xuJIqng0p3WssyE_-45" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="1070" width="100" height="60" as="geometry" />
+          <mxGeometry x="162.5" y="1180" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A-B3xuJIqng0p3WssyE_-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-46" target="A-B3xuJIqng0p3WssyE_-47">
           <mxGeometry relative="1" as="geometry" />
@@ -143,6 +132,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-50" value="Report:&lt;div&gt;- failure status&lt;/div&gt;&lt;div&gt;- ingestion time&lt;/div&gt;&lt;div&gt;- error message&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;to ADF_Pipeline_log&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="930" width="117.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-51" value="Update:&lt;div&gt;- ingestion time&lt;/div&gt;&lt;div&gt;- watermark time&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="37.5" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
