@@ -13,8 +13,14 @@
         <mxCell id="A-B3xuJIqng0p3WssyE_-0" value="Define pipeline parameters:&lt;div&gt;- pipeline id&lt;/div&gt;&lt;div&gt;- watermark time&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="162.5" y="260" width="135" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-1" target="A-B3xuJIqng0p3WssyE_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A-B3xuJIqng0p3WssyE_-1" value="Copy table from SQL Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="50" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-2" target="A-B3xuJIqng0p3WssyE_-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A-B3xuJIqng0p3WssyE_-2" value="Copy table from BigQuery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="600" width="120" height="60" as="geometry" />
@@ -50,6 +56,31 @@
         </mxCell>
         <mxCell id="A-B3xuJIqng0p3WssyE_-10" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-13" target="A-B3xuJIqng0p3WssyE_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-18" value="success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A-B3xuJIqng0p3WssyE_-17">
+          <mxGeometry x="-0.1973" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-13" target="A-B3xuJIqng0p3WssyE_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-21" value="failure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A-B3xuJIqng0p3WssyE_-20">
+          <mxGeometry x="0.0329" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-13" value="Check execution status" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="700" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-16" value="Report:&lt;div&gt;- success status&lt;/div&gt;&lt;div&gt;- row count&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- watermark time&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="42.5" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-19" value="Report:&lt;div&gt;- failure status&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
