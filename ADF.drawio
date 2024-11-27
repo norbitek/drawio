@@ -4,11 +4,17 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="A-B3xuJIqng0p3WssyE_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="A-B3xuJIqng0p3WssyE_-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Read list of tables to ingest for env and country&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="150" y="160" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-0" target="A-B3xuJIqng0p3WssyE_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A-B3xuJIqng0p3WssyE_-0" value="Define pipeline parameters:&lt;div&gt;- pipeline id&lt;/div&gt;&lt;div&gt;- watermark time&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="162.5" y="260" width="135" height="90" as="geometry" />
+          <mxGeometry x="152.5" y="260" width="135" height="90" as="geometry" />
         </mxCell>
         <mxCell id="A-B3xuJIqng0p3WssyE_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-1" target="A-B3xuJIqng0p3WssyE_-13">
           <mxGeometry relative="1" as="geometry" />
@@ -45,8 +51,11 @@
         <mxCell id="A-B3xuJIqng0p3WssyE_-3" value="Check source type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="485" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="A-B3xuJIqng0p3WssyE_-9" value="Def" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="380" width="120" height="60" as="geometry" />
+        <mxCell id="A-B3xuJIqng0p3WssyE_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-9" target="A-B3xuJIqng0p3WssyE_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-B3xuJIqng0p3WssyE_-9" value="Create select query" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A-B3xuJIqng0p3WssyE_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A-B3xuJIqng0p3WssyE_-13" target="A-B3xuJIqng0p3WssyE_-16">
           <mxGeometry relative="1" as="geometry" />
